@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.menu-button, .reservation-button {
+    display: block;
+    width: 200px;
+    margin: 2em auto;
+    padding: 1em;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu, .reservation {
+    display: none;
+    max-width: 800px;
+    margin: 2em auto;
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.dish {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.dish img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 1em;
+    border-radius: 5px;
+}
+
+.dish-details {
+    flex-grow: 1;
+}
+
+.dish-name {
+    font-size: 1.2em;
+    margin: 0 0 0.5em 0;
+}
+
+.dish-price {
+    color: #888;
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation-form input, .reservation-form select {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.reservation-form button {
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
